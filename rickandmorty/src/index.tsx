@@ -1,10 +1,10 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import App from './App';
+import App from 'src/app/modules/app/App';
 import { BrowserRouter as Router } from 'react-router-dom';
-import { GlobalStyle } from 'atomic/obj.globals/global.style';
-import { Header } from '../../../atomic/org.header/header.component';
-import { Footer } from '../../../atomic/org.footer/footer.component'
+import { GlobalStyle } from 'src/atomic/obj.globals/global.style';
+import { Header } from 'src/atomic/org.header/header.component';
+import { Footer } from 'src/atomic/org.footer/footer.component';
 
 ReactDOM.render(
   <Router>
