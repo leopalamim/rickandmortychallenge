@@ -1,5 +1,5 @@
 import styled from 'styled-components'
-import { Color, FontFamily, FontWeight, Radius, Spacing } from './constants'
+import { Color, FontFamily, FontWeight, Radius, Spacing } from '../obj.constants/constants'
 
 export const ButtonStyled = styled.a`
   font-family: ${FontFamily.Primary};

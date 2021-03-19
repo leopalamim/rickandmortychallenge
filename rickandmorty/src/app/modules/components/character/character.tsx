@@ -1,15 +1,15 @@
 import React, { useEffect, useState } from 'react';
-import { Body, H1, H2, H3 } from 'components/typography';
+import { Body, H1, H2, H3 } from 'atomic/atm.typography/typography';
 import { useParams } from 'react-router-dom';
-import { useRequest } from 'graphql/request.hook';
-import { CharacterQuery } from 'graphql/queries/characters';
-import { CharacterResponse, Person } from 'types/api';
-import { Grid } from 'components/grid';
+import { useRequest } from 'app/core/graphql/request.hook';
+import { CharacterQuery } from 'app/data/graphql/queries/characters';
+import { CharacterResponse, Person } from 'app/data/graphql/types/api';
+import { Grid } from 'atomic/obj.grid/grid';
 import { Col, Row } from 'react-flexbox-grid';
-import { LoadingState } from 'graphql/loading-state.component';
-import { Separator } from '../components/separator.component.style';
-import { ProfileImage } from '../components/image'
-import { Card } from 'components/card.component';
+import { LoadingState } from 'app/modules/components/loading-state/loading-state.component';
+import { Separator } from '../../../../atomic/atm.separator/separator.component.style';
+import { ProfileImage } from '../../../../atomic/atm.image/image'
+import { Card } from 'atomic/atm.card/card.component';
 import { Reveal } from 'react-reveal'
 
 const CharacterPage: React.FC = () => {

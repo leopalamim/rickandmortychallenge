@@ -1,5 +1,5 @@
 import { createGlobalStyle } from 'styled-components'
-import { Breakpoint, Color } from './constants'
+import { Breakpoint, Color } from '../obj.constants/constants'
 
 export const GlobalStyle = createGlobalStyle`
   * {

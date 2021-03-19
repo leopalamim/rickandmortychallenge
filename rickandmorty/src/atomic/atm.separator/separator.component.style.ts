@@ -1,5 +1,5 @@
 import styled from 'styled-components'
-import { Color, Spacing } from './constants'
+import { Spacing } from '../obj.constants/constants'
 
 interface SeparatorProps {
   type?: 'line' | 'subsection' | 'section'

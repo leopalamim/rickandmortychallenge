@@ -1,5 +1,5 @@
 import styled from 'styled-components'
-import { Color, FontFamily, FontSize, FontWeight, LineHeight, Spacing } from './constants'
+import { Color, FontFamily, FontSize, FontWeight, LineHeight, Spacing } from '../obj.constants/constants'
 
 export const H1 = styled.h1`
   font-family: ${FontFamily.Primary};

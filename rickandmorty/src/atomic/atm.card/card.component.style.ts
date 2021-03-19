@@ -1,5 +1,5 @@
 import styled from 'styled-components'
-import { Color, Spacing } from './constants'
+import { Color, Spacing } from '../obj.constants/constants'
 
 export const CardFrameStyled = styled.div`
   background-color: ${Color.White};

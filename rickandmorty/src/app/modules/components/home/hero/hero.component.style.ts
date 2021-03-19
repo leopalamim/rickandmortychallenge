@@ -1,6 +1,6 @@
 import styled from "styled-components";
-import { Color } from "./constants";
-import { Grid } from "./grid";
+import { Color } from "../../../../../atomic/obj.constants/constants";
+import { Grid } from "../../../../../atomic/obj.grid/grid";
 
 export const HeroStyled = styled.div`
   margin-top: 0px;

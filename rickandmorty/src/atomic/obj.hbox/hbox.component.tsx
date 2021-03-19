@@ -1,5 +1,5 @@
 import styled from 'styled-components'
-import { Color, Spacing } from './constants'
+import { Spacing } from '../obj.constants/constants'
 
 interface BoxProps {
   // src: https://www.w3schools.com/cssref/css3_pr_align-items.asp
@@ -15,14 +15,7 @@ export interface HboxProps extends BoxProps {
 const HboxStyled = styled.div`
   display: flex;
   align-content: flex-start;
-  align-items: center;
-  overflow: auto;
-  & a {
-    color: ${Color.Primary};
-    &:hover {
-      cursor: pointer;
-    }
-  }
+  justify-content: ${(props: HboxProps) => (props.vAlign ? props.vAlign : 'flex-start')};
 `
 
 export const Hbox: any = HboxStyled

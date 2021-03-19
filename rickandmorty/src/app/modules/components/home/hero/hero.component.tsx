@@ -1,8 +1,8 @@
 import { Col, Row } from "react-flexbox-grid";
-import { Grid } from "./grid";
+import { Grid } from "../../../../../atomic/obj.grid/grid";
 import { HeroStyled, HeroGridStyled } from "./hero.component.style";
-import { H1 } from "./typography";
-import { Video } from "./video.component";
+import { H1 } from "../../../../../atomic/atm.typography/typography";
+import { Video } from "../../../../../atomic/atm.video/video.component";
 
 export const Hero = () => (
   <HeroStyled>

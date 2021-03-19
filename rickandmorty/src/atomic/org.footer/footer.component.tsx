@@ -1,7 +1,7 @@
-import { Grid } from './grid'
+import { Grid } from '../obj.grid/grid'
 import { Row, Col } from "react-flexbox-grid";
 import { FooterWrapper } from './footer.component.style'
-import { Button } from './button.component';
+import { Button } from '../atm.button/button.component';
 
 export const Footer: React.FC = () => {
 

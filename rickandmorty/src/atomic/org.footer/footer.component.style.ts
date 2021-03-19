@@ -1,5 +1,5 @@
 import styled from 'styled-components'
-import { Color, Spacing } from './constants'
+import { Color, Spacing } from '../obj.constants/constants'
 
 export const FooterWrapper = styled.div`
   width: 100vw;

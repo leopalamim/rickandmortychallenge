@@ -1,6 +1,6 @@
-import Home from './pages/home'
+import Home from '../components/home/home'
 import { Switch, Route } from 'react-router-dom';
-import CharacterPage from 'pages/character';
+import CharacterPage from 'app/modules/components/character/character';
 
 function App() {
   return (
